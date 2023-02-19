@@ -143,9 +143,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\KDTree\KDTreeNode.cpp" />
+    <ClCompile Include="src\KDTree\KDTree.cpp" />
     <ClCompile Include="src\Trajectory.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\KDTree\KDTreeNode.h" />
+    <ClInclude Include="src\KDTree\KDTree.h" />
     <ClInclude Include="src\Trajectory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
